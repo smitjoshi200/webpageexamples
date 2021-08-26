@@ -1,0 +1,145 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+.nav-link {
+    list-style: none;
+    display: inline-flex;
+    margin: 5px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+#nav-links {
+    padding: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-link>.material-icons {
+    font-size: 27px;
+}
+
+#right-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#right-links>div {
+    float: right;
+}
+
+.nav-links>div>li {
+    font-size: smaller;
+}
+
+#main-page {
+    margin: 10px auto;
+    height: fit-content;
+    padding-top: 15px;
+}
+
+#google-icon {
+    margin: auto;
+    width: fit-content;
+}
+
+#search-bar {
+    margin: auto;
+    width: 50%;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    font-size: larger;
+    border-radius: 25px;
+    border-width: thin;
+}
+
+input[type="text"]:hover {
+    -webkit-box-shadow: 1px 6px 26px -9px rgba(0, 0, 0, 0.81);
+    box-shadow: 1px 6px 26px -9px rgba(0, 0, 0, 0.81);
+}
+
+form>.material-icons {
+    position: absolute;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#search-buttons>button {
+    padding: 15px;
+    border: unset;
+    background-color: #f8f9fa;
+}
+
+#search-buttons>button:hover {
+    border: rgb(167, 166, 166) 0.5px solid;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    bottom: 1px;
+    left: 0;
+    background-color: #f2f2f2;
+}
+
+#footer-message {
+    margin: auto;
+    width: fit-content;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+#footer-links>div>li {
+    font-size: 0.95em;
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+}
+
+li:hover {
+    border-bottom: black 1px solid;
+}
